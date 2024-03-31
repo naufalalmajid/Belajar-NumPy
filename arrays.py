@@ -20,7 +20,7 @@ two = np.array([[2, 22], [8, 88]])
 print(two)
 
 # 3-D arrays
-three = np.array([[[2, 22], [8, 88], [28, 88]]])
+three = np.array([[[2, 22], [8, 88]], [[28, 88], [222, 888]]])
 print(three)
 
 # higher dimensional, we can define number of dimension by using ndmin argument
