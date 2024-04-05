@@ -18,4 +18,13 @@ print(arr3[2])
 print(arr3[3])
 
 # splitting 2-D arrays
+arr4 = np.array([[2, 8], [28, 99], [222, 555], [2222, 8888]])
+arr5 = np.array_split(arr4, 2)
+print(arr5)
 
+arr6 = np.array_split(arr4, 2, axis=1)
+print(arr6)
+
+# alternate using hsplit() opposite of hstack()
+arr7 = np.hsplit(arr4, 2)
+print(arr7)
